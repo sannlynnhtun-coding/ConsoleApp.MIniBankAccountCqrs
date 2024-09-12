@@ -7,13 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="BankAccountCommandService.cs" />
-    <Compile Remove="BankAccountEvent.cs" />
-    <Compile Remove="BankAccountQueryService.cs" />
-    <Compile Remove="DepositEvent.cs" />
-    <Compile Remove="EventStore.cs" />
-    <Compile Remove="WithdrawalEvent.cs" />
-  </ItemGroup>
-
 </Project>
